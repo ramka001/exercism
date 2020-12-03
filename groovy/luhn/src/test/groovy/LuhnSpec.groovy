@@ -22,7 +22,7 @@ class LuhnSpec extends Specification {
         '0'   || false
     }
 
-    @Ignore
+//    @Ignore
     def "A simple valid SIN that remains valid if reversed"() {
         expect:
         Luhn.valid(value) == expected
@@ -32,7 +32,7 @@ class LuhnSpec extends Specification {
         '059' || true
     }
 
-    @Ignore
+//    @Ignore
     def "A simple valid SIN that becomes invalid if reversed"() {
         expect:
         Luhn.valid(value) == expected
