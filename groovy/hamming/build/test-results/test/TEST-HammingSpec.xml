@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HammingSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-12-13T12:09:07" hostname="X99" time="0.097">
+  <properties/>
+  <testcase name="Empty strands" classname="HammingSpec" time="0.07"/>
+  <testcase name="Single letter identical strands" classname="HammingSpec" time="0.004"/>
+  <testcase name="Single letter different strands" classname="HammingSpec" time="0.004"/>
+  <testcase name="Long identical strands" classname="HammingSpec" time="0.001"/>
+  <testcase name="Long different strands" classname="HammingSpec" time="0.001"/>
+  <testcase name="Disallow first strand longer" classname="HammingSpec" time="0.012"/>
+  <testcase name="Disallow second strand longer" classname="HammingSpec" time="0.001"/>
+  <testcase name="Disallow left empty strand" classname="HammingSpec" time="0.0"/>
+  <testcase name="Disallow right empty strand" classname="HammingSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

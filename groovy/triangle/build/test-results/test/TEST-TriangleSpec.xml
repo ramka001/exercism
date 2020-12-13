@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TriangleSpec" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-12-10T04:44:28" hostname="X99" time="0.101">
+  <properties/>
+  <testcase name="All sides are equal for equilateral" classname="TriangleSpec" time="0.064"/>
+  <testcase name="Any side is unequal" classname="TriangleSpec" time="0.0"/>
+  <testcase name="No sides are equal for equilateral" classname="TriangleSpec" time="0.0"/>
+  <testcase name="All zero sides is not a triangle" classname="TriangleSpec" time="0.0"/>
+  <testcase name="Sides may be floats for equilateral" classname="TriangleSpec" time="0.001"/>
+  <testcase name="Last two sides are equal" classname="TriangleSpec" time="0.0"/>
+  <testcase name="First two sides are equal" classname="TriangleSpec" time="0.0"/>
+  <testcase name="First and last sides are equal" classname="TriangleSpec" time="0.001"/>
+  <testcase name="Equilateral triangles are also isosceles" classname="TriangleSpec" time="0.0"/>
+  <testcase name="No sides are equal for isosceles" classname="TriangleSpec" time="0.001"/>
+  <testcase name="First triangle inequality violation" classname="TriangleSpec" time="0.0"/>
+  <testcase name="Second triangle inequality violation" classname="TriangleSpec" time="0.0"/>
+  <testcase name="Third triangle inequality violation" classname="TriangleSpec" time="0.001"/>
+  <testcase name="Sides may be floats for isosceles" classname="TriangleSpec" time="0.0"/>
+  <testcase name="No sides are equal for scalene" classname="TriangleSpec" time="0.017"/>
+  <testcase name="All sides are equal for scalene" classname="TriangleSpec" time="0.001"/>
+  <testcase name="Two sides are equal" classname="TriangleSpec" time="0.0"/>
+  <testcase name="May not violate triangle inequality" classname="TriangleSpec" time="0.0"/>
+  <testcase name="Sides may be floats for scalene" classname="TriangleSpec" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

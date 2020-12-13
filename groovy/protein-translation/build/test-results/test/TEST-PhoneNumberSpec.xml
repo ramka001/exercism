@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PhoneNumberSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-03T04:10:42" hostname="X99" time="0.232">
+  <properties/>
+  <testcase name="Invalid with letters" classname="PhoneNumberSpec" time="0.232"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
