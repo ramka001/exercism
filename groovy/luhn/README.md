@@ -1,8 +1,8 @@
-# Luhn
+# Luhn1
 
-Given a number determine whether or not it is valid per the Luhn formula.
+Given a number determine whether or not it is valid per the Luhn1 formula.
 
-The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is
+The [Luhn1 algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) is
 a simple checksum formula used to validate a variety of identification
 numbers, such as credit card numbers and Canadian Social Insurance
 Numbers.
@@ -22,7 +22,7 @@ are disallowed.
 4539 1488 0343 6467
 ```
 
-The first step of the Luhn algorithm is to double every second digit,
+The first step of the Luhn1 algorithm is to double every second digit,
 starting from the right. We will be doubling
 
 ```text
@@ -99,7 +99,7 @@ When all tests pass, congratulations!
 
 ## Source
 
-The Luhn Algorithm on Wikipedia [http://en.wikipedia.org/wiki/Luhn_algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm)
+The Luhn1 Algorithm on Wikipedia [http://en.wikipedia.org/wiki/Luhn_algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
