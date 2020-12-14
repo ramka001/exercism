@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LuhnSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-10T12:07:38" hostname="X99" time="7585.721">
-  <properties/>
-  <testcase name="A simple valid SIN that remains valid if reversed" classname="LuhnSpec" time="7585.721"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
