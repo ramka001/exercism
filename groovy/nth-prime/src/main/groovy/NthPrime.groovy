@@ -6,38 +6,27 @@ class NthPrime {
             throw new ArithmeticException()
         }
 
-        def maxCheck
-        def isPrime
-        def primeList = []
-
-        if(n >= 1 && n < 10) {
-            maxCheck = n + 25
-        } else if(n>=10 && n <20) {
-            maxCheck = n + 50
-        } else if(n >= 100 && n < 10000) {
-            maxCheck = n + 1000
-        } else if(n >= 10000 ) {
-            maxCheck = n + 100000
-        }
-
-
-        for (int i = 2; i <= maxCheck; i++) {
-            isPrime = checkPrime(i)
-            if(isPrime) {
-                primeList.add(i)
-            }
-        }
-
-        return primeList[n-1]
-
+        findNthPrime(n)
     }
 
-    static boolean checkPrime(int numberToCheck) {
-        for (int i = 2; i <= numberToCheck / 2; i++) {
-                if(numberToCheck % i == 0) {
-                    return false
+    private static int findNthPrime(int n) {
+        def count = 0, num = 1, i, output=0
+
+        while(count < n){
+
+            num=num+1
+
+            for (i = 2; i <= num; i++){
+                if (num % i==0) {
+                    break
                 }
+            }
+            if (i == num){
+                count = count + 1
+            }
+
+            output = i
         }
-        return true
+        return output
     }
 }
